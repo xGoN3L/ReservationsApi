@@ -12,7 +12,7 @@ namespace ReservationsApi.Models
         public string Topic { get; set; } = string.Empty;
         public DateTime Date { get; set; }
         public TimeSpan StartTime { get; set; }
-        public DateTime EndTime { get; set; }
+        public TimeSpan EndTime { get; set; }
         public ReservationStatus Status { get; set; }
     }
 }
